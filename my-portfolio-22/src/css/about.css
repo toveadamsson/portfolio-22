@@ -1,0 +1,25 @@
+.intro {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  box-sizing: border-box;
+  height: 100vh;
+}
+img {
+  width: 40vw;
+  /* height: 40vh; */
+}
+.main-container p {
+  width: 30vw;
+  color: #fff;
+}
+.about-me-text {
+  border: 1px solid white;
+  height: 200px;
+  overflow: auto;
+  padding: 0px 20px;
+}
+
+
