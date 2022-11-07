@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../css/intro.scss";
-// import About from "../components/About";
+import About from "../components/About";
 export default function Intro() {
   return (
     <div className="main-container">
