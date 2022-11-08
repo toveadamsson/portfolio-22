@@ -1,15 +1,15 @@
 import React from "react";
-// import {  Photo} from "../img/profile-picture";
-
-
-import Proj from "../components/proj";
-
+import Proj from "./proj";
+import Photo from "../img/profile-picture.jpeg";
+import Nav from "./Header"
 import "../css/about.css";
+
 export default function About() {
   return (
     <div className="main-container">
+      <Nav/>
       <div className="intro">
-        {/* <img src={Photo} alt="tove adamsson" /> */}
+        <img src={Photo} alt="tove adamsson" />
         <div className="about-me-text">
           <p>
             {" "}
@@ -34,7 +34,7 @@ export default function About() {
         </div>
       </div>
       <div><Proj /></div>
-      <button>hello</button>
+
     </div>
   );
 }

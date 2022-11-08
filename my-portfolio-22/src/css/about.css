@@ -1,5 +1,5 @@
 .intro {
-  border: 2px solid red;
+  border-top: 5px solid black;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -8,18 +8,31 @@
   height: 100vh;
 }
 img {
-  width: 40vw;
+  width: 30vw;
   /* height: 40vh; */
 }
 .main-container p {
   width: 30vw;
-  color: #fff;
+  color: #000;
 }
 .about-me-text {
-  border: 1px solid white;
   height: 200px;
   overflow: auto;
   padding: 0px 20px;
 }
 
 
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    flex-direction: column;
+    height: 80%;
+  }
+  img {
+    width: 60vw;
+  }
+  .about-me-text p {
+    width: 100%;
+    border: 1px solid green;
+  }
+}
