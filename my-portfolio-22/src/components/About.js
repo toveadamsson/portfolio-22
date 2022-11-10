@@ -1,13 +1,13 @@
 import React from "react";
-import Proj from "./proj";
+// import Proj from "./proj";
 import Photo from "../img/profile-picture.jpeg";
-import Nav from "./Header"
+import Header from "./Header"
 import "../css/about.css";
 
 export default function About() {
   return (
     <div className="main-container">
-      <Nav/>
+      <Header/>
       <div className="intro">
         <img src={Photo} alt="tove adamsson" />
         <div className="about-me-text">
@@ -33,7 +33,7 @@ export default function About() {
           </p>
         </div>
       </div>
-      <div><Proj /></div>
+
 
     </div>
   );
