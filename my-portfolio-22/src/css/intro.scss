@@ -79,7 +79,11 @@
   transform: translate(0, 100%);
 }
 .animated-title > div.text-top div span:first-child {
+  padding-bottom: 40px;
   color: grey;
+}
+.animated-title > div.text-top div span{
+padding-bottom: 10px;
 }
 .animated-title > div.text-bottom {
   bottom: 0;
@@ -92,6 +96,9 @@
   transform: translate(0, -100%);
   font-size: 5vmin;
 }
+.animated-title > div.text-bottom span{
+  padding-top:20px;
+}
 .button {
   font-size: 4.5vmin;
   border: none;
@@ -103,8 +110,6 @@
 .button:hover {
   text-decoration: underline;
 }
-
-
 @media screen and (max-width: 1024px) { /* Specific to this particular image */
   .animated-title > div div{
     font-size: 5vmin;
