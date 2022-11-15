@@ -4,6 +4,10 @@ import '../css/header.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 export default function Header () {
+
+
+
+
   return (
     <Navbar collapseOnSelect expand='lg' bg='light' variant='light'>
       <Navbar.Brand className='nav-title' href='/'>

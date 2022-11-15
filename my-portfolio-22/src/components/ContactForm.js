@@ -41,7 +41,7 @@ const ContactForm = () => {
       <Header />
       <div className='hello'>
       <div>
-          <p>Feel free to reach out to me with any questions or feedback. </p>
+          <p>If you have any Questions or Comments, please dont hesitat to reach out to me. </p>
         </div>
         <div className='contact-form'>
           <Form className='form-field' onSubmit={handleOnSubmit}>
@@ -75,7 +75,7 @@ const ContactForm = () => {
               placeholder='Message…'
               required
             />
-            <Button type='submit' color='blue'>
+            <Button type='submit' color='twitter'>
               Get in touch
             </Button>
           </Form>
