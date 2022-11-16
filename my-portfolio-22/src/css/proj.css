@@ -218,9 +218,9 @@ h3{
   } */
 }
 @media screen and (max-width: 768px) {
-  * {
+  /* * {
     background-color: #f1f8f6;
-  }
+  } */
   .announcements span {
     width: 100%;
     max-width: fit-content;

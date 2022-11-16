@@ -126,9 +126,7 @@
   left: 50%;
   width: 40%;
 }
-  .animated-title {
-    border: 5px solid red;
-  }
+
   .animated-title > div.text-top div span:first-child {
     padding-bottom: 30px;
     font-size: 7vmin;
@@ -136,9 +134,7 @@
 }
 // -----
 @media screen and (max-width: 480px) {
-  .animated-title {
-    border: 3px solid green;
-  }
+
   .animated-title > div.text-top div span:first-child {
     padding-bottom: 20px;
     font-size: 7.5vmin;
@@ -153,5 +149,5 @@
   .button {
     font-size: 6vmin;
   }
-  
+
 }

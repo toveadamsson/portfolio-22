@@ -1,14 +1,28 @@
-.nav-title{
-    padding-left: 10px;
-    font-size: 3vmin;
+.nav-title {
+  padding-left: 10px;
+  font-size: 3vmin;
 }
 .ms-auto {
-    margin-left:10px;
+  margin-left: 10px;
 }
 .nav-link {
-    margin-left:10px;
+  margin-left: 10px;
 }
 .navbar {
-    border-bottom: 5px solid black;
-    position:fixed
+  border-bottom: 5px solid black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav.naav{
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
