@@ -41,8 +41,4 @@
 .ui.form .required.field > label:after {
   color: white;
 }
-@media screen and (max-width: 768px) {
-  /* .hello .hello-d {
-    border: 2px solid red;
-  } */
-}
+
