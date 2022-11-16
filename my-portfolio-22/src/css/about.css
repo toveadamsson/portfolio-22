@@ -1,5 +1,4 @@
 .intro {
-
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -12,7 +11,7 @@ img {
   /* height: 40vh; */
 }
 .main-container p {
-  width: 30vw;
+  /* width: 30vw; */
   color: #000;
 }
 .about-me-text {
@@ -31,8 +30,14 @@ img {
   img {
     width: 60vw;
   }
+  .about-me-text{
+    overflow:unset;
+    border: none;
+  }
   .about-me-text p {
     width: 100%;
-    border: 1px solid green;
+    height: 100%;
+    /* border: 1px solid green; */
+    overflow:unset;
   }
 }

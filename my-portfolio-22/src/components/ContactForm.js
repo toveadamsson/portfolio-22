@@ -40,7 +40,7 @@ const ContactForm = () => {
     <div className='main-container'>
       <Header />
       <div className='hello'>
-      <div>
+      <div className='hello-d'>
           <p>If you have any Questions or Comments, please dont hesitat to reach out to me. </p>
         </div>
         <div className='contact-form'>

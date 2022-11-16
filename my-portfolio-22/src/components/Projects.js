@@ -14,10 +14,8 @@ function Projects () {
         <div className='main-container'>
           <section className='announcements'>
             <span>
-              Facial coverings are optional in our stores for our fully
-              vaccinated customers, following CDC guidance, except where ocal
-              regulations require it by law.{' '}
-              <a href='starbucks.com/rewards.'>Learn more</a>
+ Creating a project usually start with me reflecting on what I find useful. If it's a website to find where to do sports outside, as BeActiv that was created during the pandemic. Or a useful fullstack application that need authorization in order to get access.
+              {/* <a href='starbucks.com/rewards.'>Learn more</a> */}
             </span>
           </section>
           <section className='rewards left-right-section'>
@@ -44,7 +42,8 @@ function Projects () {
             <div className='text'>
               <h1>Register and Login</h1>
               <h3>
-              A register and login website <br/>Created with: React, Express, MongoDB
+              A register and login website <br/>Created using MERN stack 
+              <br/>( Mongodb, Express, React, Node.js )
               </h3>
               <a  className="cta"href="https://login-website-ta.herokuapp.com/">View Website</a>
             </div>
@@ -79,7 +78,7 @@ function Projects () {
             </div>
           </section>
 
-          <section className='change left-right-section'>
+          {/* <section className='change left-right-section'>
             <div className='text'>
               <h1>Creating positive change</h1>
               <h3>
@@ -95,8 +94,8 @@ function Projects () {
                 alt=''
               />
             </div>
-          </section>
-          <section className='center-section'>
+          </section> */}
+          {/* <section className='center-section'>
             <div className='info-text'>
               <p>
                 *At participating stores. Some restrictions apply. See
@@ -112,7 +111,7 @@ function Projects () {
                 details.
               </p>
             </div>
-          </section>
+          </section> */}
         </div>
       </div>
     </div>
