@@ -1,27 +1,21 @@
-.intro {
+.about-section{
+  margin-top:7vh;
+}
+.trait, .tech{
+  width:50%;
+}
+
+.skills{
+  border:1px solid red;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  box-sizing: border-box;
-  height: 100vh;
-}
-img {
-  width: 30vw;
-  /* height: 40vh; */
-}
-.main-container p {
-  /* width: 30vw; */
-  color: #000;
-}
-.about-me-text {
-  height: 200px;
-  overflow: auto;
-  padding: 0px 20px;
 }
 
-
-
+.tech ul{
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 @media screen and (max-width: 1024px) {
   .intro {
     flex-direction: column;

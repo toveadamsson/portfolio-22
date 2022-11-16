@@ -15,14 +15,8 @@
   width: 100%;
 }
 
-nav{
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-nav.naav{
-    position: fixed;
-    top: 0;
-    width: 100%;
+nav.naaaav {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }

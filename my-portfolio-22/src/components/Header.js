@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 export default function Header () {
   return (
-    <Navbar className="naav"
+    <Navbar className="naaaav"
       collapseOnSelect
       expand='lg'
       bg='light'
