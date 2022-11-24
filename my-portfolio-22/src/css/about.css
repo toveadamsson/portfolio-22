@@ -1,20 +1,34 @@
-.about-section{
-  margin-top:7vh;
+.about-section {
+  margin-top: 7vh;
 }
-.trait, .tech{
-  width:50%;
+.trait,
+.tech {
+  width: 40%;
+  /* height:fit-content; */
+  padding:10px;
 }
 
-.skills{
-  border:1px solid red;
+.skills {
+  /* border: 1px solid red; */
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+}
+.tech {
+  /* border: 1px solid green; */
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
 }
 
-.tech ul{
+.tech ul, .trait ul {
   list-style: none;
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+.trait ul{
+  list-style: none;
 }
 @media screen and (max-width: 1024px) {
   .intro {
@@ -24,14 +38,14 @@
   img {
     width: 60vw;
   }
-  .about-me-text{
-    overflow:unset;
+  .about-me-text {
+    overflow: unset;
     border: none;
   }
   .about-me-text p {
     width: 100%;
     height: 100%;
     /* border: 1px solid green; */
-    overflow:unset;
+    overflow: unset;
   }
 }
